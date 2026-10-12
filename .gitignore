@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.dev.vars
+*.tsbuildinfo
+
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.pnp.*
