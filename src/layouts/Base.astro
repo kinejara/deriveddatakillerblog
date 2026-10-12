@@ -1,0 +1,37 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Notes on iOS development, Xcode, and the Raspberry Pi.' } = Astro.props;
+const pageTitle = title === 'Derived Data Killer' ? title : `${title} · Derived Data Killer`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="site-header">
+        <p class="kicker">~/Library/Developer/Xcode/DerivedData</p>
+        <p class="wordmark"><a href="/">Derived Data Killer</a></p>
+        <p class="tagline">A personal blog on iOS, Xcode, and a Raspberry Pi.</p>
+      </header>
+      <slot />
+      <footer class="site-footer">
+        <p>Astro, served from Cloudflare.</p>
+      </footer>
+    </div>
+  </body>
+</html>

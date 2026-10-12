@@ -1,0 +1,9 @@
+{
+  "name": "deriveddatakillerblog",
+  "compatibility_date": "2026-10-12",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
