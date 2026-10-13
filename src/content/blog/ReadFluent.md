@@ -15,3 +15,5 @@ You can pick the language you are reading toward. A bookmark saves the passage, 
 The page can be warm white, paper sepia, or charcoal. That choice stays on the device.
 
 ReadFluent is the app I wanted while reading a book in a language I was still learning: the original stays in front of me, and the translation is there when I need it.
+
+[Privacy policy](/privacy/readfluent)
