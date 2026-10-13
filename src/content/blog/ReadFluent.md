@@ -16,4 +16,4 @@ The page can be warm white, paper sepia, or charcoal. That choice stays on the d
 
 ReadFluent is the app I wanted while reading a book in a language I was still learning: the original stays in front of me, and the translation is there when I need it.
 
-[Privacy policy](/privacy/readfluent)
+[Marketing](/marketing/readfluent) · [Privacy policy](/privacy/readfluent) · [Support](/support/readfluent)
