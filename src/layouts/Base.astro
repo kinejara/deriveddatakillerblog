@@ -6,7 +6,7 @@ interface Props {
   description?: string;
 }
 
-const { title, description = 'Notes on iOS development, Xcode, and the Raspberry Pi.' } = Astro.props;
+const { title, description = 'Notes from the trenches of mobile development and other random topics.' } = Astro.props;
 const pageTitle = title === 'Derived Data Killer' ? title : `${title} · Derived Data Killer`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -26,7 +26,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       <header class="site-header">
         <p class="kicker">~/Library/Developer/Xcode/DerivedData</p>
         <p class="wordmark"><a href="/">Derived Data Killer</a></p>
-        <p class="tagline">A personal blog on iOS, Xcode, and a Raspberry Pi.</p>
+        <p class="tagline">Notes from the trenches of mobile development and other random topics.</p>
       </header>
       <slot />
       <footer class="site-footer">
