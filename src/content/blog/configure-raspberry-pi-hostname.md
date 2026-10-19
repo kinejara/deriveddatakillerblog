@@ -1,5 +1,5 @@
 ---
-title: "COnfigure Raspberry Pi hostname for ssh connection"
+title: "Configure Raspberry Pi hostname for ssh connection"
 date: 2017-04-14
 tags: ["raspberrypi", "osmc", "ssh"]
 ---
