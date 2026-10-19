@@ -31,3 +31,5 @@ If you don't explain the edge cases, the agent will pick something that sounds r
 There is also the risk of things slowly drifting away from what you actually want to ship. Screenshot mode, demo text, sample books... if you don't keep an eye on those things, you can end up shipping the demo instead of the actual product.
 
 Would I use Cursor again to build a small native app? Absolutely. But I would also spend more time writing down the behaviors I don't want to compromise on, and keep track of all the demo-only features so they don't accidentally become part of the final product.
+
+Shameless plug: <https://apps.apple.com/us/app/readfluent/id6822424096>
